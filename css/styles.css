@@ -303,7 +303,7 @@ img {
   background-color: #404bbf;
 }
 
-.social-link:active {
+.social-link:focus {
   background-color: #404bbf;
 }
 
