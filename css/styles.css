@@ -442,19 +442,27 @@ img {
   max-width: 264px;
 }
 
+.container-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.footer-logo-container {
+  margin-right: 120px;
+}
+
 .footer-social-subtitle {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-bottom: 16px;
 }
 
 .footer-social {
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-  margin-left: 540px;
+  display: block;
 }
 
 .footer-social-list {
@@ -483,4 +491,5 @@ img {
 }
 
 .footer-icons {
+  fill: #f4f4fd;
 }
